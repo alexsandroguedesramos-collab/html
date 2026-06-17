@@ -1,4 +1,4 @@
-# html
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,6 +6,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+
+    <style>
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        main {
+            background-color: #FFFFFF;
+            color: #183C63;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -17,8 +36,8 @@
 
     <main>
 
-        <!-- Usei a tag article porque ela representa um conteúdo independente
-             que pode ser lido e compartilhado separadamente, como um post de blog. -->
+        <!-- Usei a tag article porque ela representa um conteúdo independente,
+             como uma postagem de blog, tornando a estrutura mais semântica. -->
         <article>
 
             <h2>Meu primeiro post</h2>
