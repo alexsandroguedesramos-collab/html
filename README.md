@@ -94,3 +94,47 @@
 </body>
 
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Box Model</title>
+
+    <style>
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;          /* espaçamento externo e centralização */
+            padding: 16px;           /* espaçamento interno */
+            border: 5px solid #cf1010; /* borda */
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 16px;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <p>Exemplo de Header com Border, Padding e Margin</p>
+    </header>
+
+    <main>
+        <h2>Conteúdo Principal</h2>
+        <p>
+            Este conteúdo está dentro da área principal da página.
+            Observe o espaçamento interno (padding), a borda (border)
+            e o espaçamento externo (margin).
+        </p>
+    </main>
+
+</body>
+</html>
