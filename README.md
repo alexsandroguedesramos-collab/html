@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -24,7 +23,6 @@
             margin: 0 auto;
         }
     </style>
-
 </head>
 
 <body>
@@ -37,7 +35,7 @@
     <main>
 
         <!-- Usei a tag article porque ela representa um conteúdo independente,
-             como uma postagem de blog, tornando a estrutura mais semântica. -->
+             como uma postagem de blog, tornando a estrutura mais semântica e organizada. -->
         <article>
 
             <h2>Meu primeiro post</h2>
@@ -60,9 +58,9 @@
 
             <p>
                 Uma página pode ser acessada por computadores, celulares, tablets
-                e diversos outros dispositivos. Por isso, precisamos organizar o
-                conteúdo corretamente para que todos consigam visualizar e
-                interpretar a página da melhor forma possível.
+                e outros dispositivos. Por isso, precisamos organizar o conteúdo
+                corretamente para que todos consigam visualizar e interpretar a
+                página da melhor forma possível.
             </p>
 
             <h3>Importância das configurações do documento</h3>
